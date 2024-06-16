@@ -1,0 +1,41 @@
+
+.header {
+    background-color: #4B0082; 
+    color: #fff; 
+  }
+  
+  .header .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;;
+  }
+  
+  .header .nav-link {
+    color: #fff; 
+    font-size: 1.1rem;
+    margin-right: 1rem;
+  }
+  
+  .header .nav-link:hover {
+    color: #ddd; 
+  }
+  
+  .header .form-control {
+    border-color: #fff; 
+    background-color: #4B0082; 
+    color: #fff; 
+  }
+  
+  .header .form-control::placeholder {
+    color: #ccc; 
+  }
+  
+  .header .btn-outline-success {
+    border-color: #fff; 
+    color: #fff; 
+  }
+  
+  .header .btn-outline-success:hover {
+    background-color: #4B0082; 
+    border-color: #4B0082; 
+  }
