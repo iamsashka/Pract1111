@@ -21,9 +21,7 @@ const Home = () => {
         </Col>
       </Row>
       <Row>
-        <Col className="opisanie1">
-          <h3>Мы предлагаем широкий ассортимент цветов для любого случая!!!</h3>
-        </Col>
+        
       </Row>
     </Container>
   );
