@@ -11,7 +11,10 @@ import Overlay from './components/Overlay';
 
 export const AppContext = React.createContext({});
 
-function App() {
+
+
+const App = ()=> {
+  const [search, setSearch] = useState('');
   const [flowers, setFlowers] = useState([]);
   const [overlayItems, setoverlayItems] = useState([]);
   const [favouritesItems, setfavourites] = useState([]);
@@ -84,7 +87,10 @@ function App() {
                 overlayItems={overlayItems}
                 setoverlayItems={setoverlayItems}
                 favouritesItems={favouritesItems}
-                setfavourites={setfavourites} />
+                setfavourites={setfavourites} 
+                setSearch={setSearch}
+                search={search}
+                />
             }
           />
           <Route

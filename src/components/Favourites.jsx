@@ -46,7 +46,7 @@ const Favourites = () => {
         </div>
       ) : (
         <div className="pusto">
-          <p className="izb">Нажмите на ♡, чтобы добавить продукт в избранное</p>
+          <p className="izb">Тут ничего не добавлено</p>
         </div>
       )}
     </div>

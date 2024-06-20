@@ -1,8 +1,8 @@
 import React, { useState, useContext, useEffect } from 'react';
 import Card from 'react-bootstrap/Card';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
+import ShoppingBagIcon from '@mui/icons-material/ShoppingBag'
+import ShoppingBasketIcon from '@mui/icons-material/ShoppingBasket'
 import Fab from '@mui/material/Fab';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import '../Item.css';
@@ -14,7 +14,7 @@ const Item = (props) => {
 
   useEffect(() => {
     setIsFavorite(context.isFab(props.id));
-  }, [context, props.id]);  // Добавьте 'context' в зависимости
+  }, [context, props.id]);  
 
   const onClickAdd = () => {
     const { myId, id, name, description, price, img } = props;
@@ -46,11 +46,11 @@ const Item = (props) => {
           <div aria-label="добавить в корзину" onClick={onClickAdd} style={{ cursor: 'pointer' }}>
             {context.isAdded(props.myId) ? 
               <div style={{ display: 'flex', alignItems: 'center' }}>
-                <ShoppingCartIcon style={{ color: 'white' }} />
+                <ShoppingBagIcon style={{ color: 'white' }} />
                 <span style={{ marginLeft: '5px' }}>Товар был добавлен в корзину</span>
               </div>
               :
-              <AddShoppingCartIcon style={{ color: 'white' }} />
+              <ShoppingBasketIcon style={{ color: 'white' }} />
             }
           </div>
           <Fab

@@ -40,7 +40,7 @@ const Overlay = (props) => {
         </div>
       ) : (
         <div className="puscto">
-          <p className="lala">Нажмите на 🛒, чтобы добавить продукт в корзину</p>
+          <p className="lala">Товары не были добавлены</p>
           <img src="img/pusto.jpeg" className="esli_pusto"/>
         </div>
       )}

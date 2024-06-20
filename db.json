@@ -130,22 +130,5 @@
     }
   ],
   "overlays": [],
-  "favourites": [
-    {
-      "id": "2",
-      "myId": "2",
-      "name": "Букет из пионов",
-      "description": "Нежный букет из 9 пионов",
-      "price": "3000 ₽",
-      "img": "img/peonies-bouquet.jpg"
-    },
-    {
-      "id": "1",
-      "myId": "1",
-      "name": "Букет из роз",
-      "description": "Роскошный букет из 12 красных роз",
-      "price": "2500 ₽ ",
-      "img": "img/roses-bouquet.jpg"
-    }
-  ]
+  "favourites": []
 }
