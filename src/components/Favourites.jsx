@@ -45,8 +45,8 @@ const Favourites = () => {
           ))}
         </div>
       ) : (
-        <div className="pusto">
-          <p className="izb">Тут ничего не добавлено</p>
+        <div className="puscto_netnichego">
+          <p className="izbrannoe">Тут ничего не добавлено</p>
         </div>
       )}
     </div>
