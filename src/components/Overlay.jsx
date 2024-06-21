@@ -18,7 +18,7 @@ const Overlay = (props) => {
       {props.overlayItems.length > 0 ? (
         <div className="cardkorz">
           {props.overlayItems.map((obj) => (
-            <Card className="kartochki" key={obj.id}>
+            <Card className="tovar" key={obj.id}>
               <Card.Img variant="top" className='img1' src={obj.img} />
               <Card.Body className="text">
                 <Card.Title className="title">{obj.name}</Card.Title>
@@ -39,15 +39,15 @@ const Overlay = (props) => {
           ))}
         </div>
       ) : (
-        <div className="puscto">
+        <div className="puscto_netnichego">
           <p className="lala">Товары не были добавлены</p>
-          <img src="img/pusto.jpeg" className="esli_pusto"/>
+          <img src="img/pusto.jpeg" className="nichegonet"/>
         </div>
       )}
 
       <div className="price">
-        <p className="res">Ваш чек: </p>
-        <p className="res">{props.total_price}</p>
+        <p className="result">Ваш чек: </p>
+        <p className="result">{props.total_price}</p>
       </div>
     </div>
   );

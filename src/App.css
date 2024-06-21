@@ -74,7 +74,7 @@
   gap: 20px;
 }
 
-.kartochki {
+.tovar {
   background-color: #6A5ACD; 
   border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -130,11 +130,11 @@
   margin-bottom: 10px;
 }
 
-.esli_pusto {
+.nichegonet {
   width: 200px;
 }
 
-.res {
+.result {
   font-size: 18px;
   font-weight: bold;
   color: white;

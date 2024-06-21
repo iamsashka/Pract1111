@@ -16,7 +16,7 @@ const Favourites = () => {
       {favouritesItems.length > 0 ? (
         <div className="cardkorz">
           {favouritesItems.map(item => (
-            <Card key={item.id} className="kartochki">
+            <Card key={item.id} className="tovar">
               <Card.Img variant="top" className='img1' src={item.img} />
               <Card.Body className="text">
                 <Card.Title className="title">{item.name}</Card.Title>

@@ -32,7 +32,7 @@ const Item = (props) => {
   };
 
   return (
-    <Card className="kartochki">
+    <Card className="tovar">
       <Card.Img variant="top" className='img1' src={props.img} />
       <Card.Body className="text">
         <Card.Title className="title">{props.name}</Card.Title>
